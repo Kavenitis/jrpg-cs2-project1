@@ -1,3 +1,5 @@
+
+
 class Party(val characters: List[Character]) {
   def gainExperience(defeatedParty: Party): Unit = {
     val defeatedCharacters = defeatedParty.characters
